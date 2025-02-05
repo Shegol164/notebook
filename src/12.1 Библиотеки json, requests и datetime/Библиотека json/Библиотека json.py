@@ -47,7 +47,7 @@ print(book_info)
 print(type(book_info))
 print("#"*119)
 
-with open('data_1.json',  'w') as json_file:
+with open('data_1.json', 'w') as json_file:
     json.dump(book_info, json_file)
 
 with open('data_1.json') as json_file:
